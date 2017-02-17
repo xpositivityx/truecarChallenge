@@ -5,14 +5,19 @@ For my submission I chose to create a rails REST api which is consumed by a reac
 To get the app running:
 
 for the api:
+```
 cd selfiegramAPI
 rake db:create db:migrate db:seed
 rails s
-
+```
 for the frontend App:
+```
 cd selfiegramFrontEnd
 npm start
-
+```
 this should open the browser automatically and direct you to localhost:3001
 
-if not, try npm install then npm start
+if not, try
+```
+npm install then npm start
+```
