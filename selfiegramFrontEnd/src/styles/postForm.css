@@ -1,0 +1,13 @@
+.form {
+	box-sizing: border-box;
+	width: 50%;
+	display: inline-block;
+}
+
+.form .row {
+	margin: 4px 0;
+}
+
+.form .row input {
+	float: right;
+}

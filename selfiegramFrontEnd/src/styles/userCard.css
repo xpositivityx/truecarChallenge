@@ -1,0 +1,38 @@
+.user-card{
+	padding: 5px;
+	box-sizing: border-box;
+	width: 50%;
+	display: inline-block;
+}
+
+.user-card .user-name {
+	margin: 4px;
+}
+
+.user-card .user-img{
+	height: 100px;
+	width: 100px;
+}
+
+.user-card .user-img img{
+	height: 100%;
+	width: 100%;
+}
+
+.follower-bar div {
+  display: inline-block;
+}
+
+.follower-bar div:first-of-type {
+  margin-right: 4px;
+}
+
+.follow-btn a {
+	cursor: pointer;
+  text-decoration: underline;
+  color: blue;
+}
+
+.post-feed {
+	margin-top: 20px;
+}
