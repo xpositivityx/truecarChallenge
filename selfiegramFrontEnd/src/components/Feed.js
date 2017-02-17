@@ -30,7 +30,7 @@ class Feed extends React.Component {
     axios.post('http://localhost:3000/users/1/posts/' + postId + '/likes')
     .then((data) => {
 
-      if(data.status !== 200){
+      if(data.status !== 204){
         alert('Something went wrong!');
         return;
       }
@@ -54,7 +54,7 @@ class Feed extends React.Component {
     axios.delete('http://localhost:3000/users/1/posts/' + postId + '/likes')
     .then((data) => {
       
-      if(data.status !== 200){
+      if(data.status !== 204){
         alert('Something went wrong!');
         return;
       }
